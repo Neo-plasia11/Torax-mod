@@ -19,7 +19,8 @@ public class ToraxPlanet {
 
             alwaysUnlocked = true;
             accessible = true;
-
+            visible = true;
+            
             atmosphereColor = arc.graphics.Color.valueOf("36bfc1");
             iconColor = arc.graphics.Color.valueOf("36bfc1");
 
