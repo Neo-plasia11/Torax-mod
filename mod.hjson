@@ -3,5 +3,5 @@ displayName: Torax Mod
 author: Neo-plasia11
 description: A Mindustry Java mod that adds a new planet.
 version: 1.0
-minGameVersion: 146
+minGameVersion: 160
 main: torax.ToraxMod
