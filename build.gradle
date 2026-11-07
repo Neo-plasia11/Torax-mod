@@ -40,4 +40,8 @@ jar {
     from('.') {
         include 'mod.hjson'
     }
+
+    from('src/assets') {
+        into ''
+    }
 }
