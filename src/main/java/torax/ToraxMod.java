@@ -12,5 +12,9 @@ public class ToraxMod extends Mod {
     @Override
     public void loadContent() {
         Log.info("Loading Torax Mod content...");
+
+        ToraxPlanet.load();
+
+        Log.info("Torax planet registered!");
     }
 }
