@@ -12,13 +12,13 @@ repositories {
 configurations.configureEach {
     resolutionStrategy.eachDependency {
         if (requested.group == 'com.github.Anuken.Arc') {
-            useVersion 'v146'
+            useVersion 'v160.7'
         }
     }
 }
 
 dependencies {
-    compileOnly "com.github.Anuken.Mindustry:core:v146"
+    compileOnly "com.github.Anuken.Mindustry:core:v160.7"
 }
 
 sourceSets {
